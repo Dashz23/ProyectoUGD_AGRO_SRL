@@ -1,18 +1,19 @@
-## Getting Started
+TRABAJO PRACTICO - AGRO SRL - PROGRAMACION AVANZADA II 2021
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Integrantes:
 
-## Folder Structure
+  -Nürnberg Sofia 67111
+  -Knüppelholz Adrián 67100
 
-The workspace contains two folders by default, where:
+Observaciones:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+El trabajo se encuentra en la rama MASTER 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Funcionalidades Desarrolladas:
+  -Registrar Situacion Anormal
+  -Modificar Situacion Anormal
+  -Eliminar Situacion Anormal
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Para acceder a dichas funciones dirijirse en el Menu Principal > Boton Situaciones Anormales
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Ademas dejamos adjunto el correspondiente Diagrama de Clases, la BD del Proyecto (postgresSQL) y el ejecutable del programa 
