@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+ 	<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">org.postgresql.Driver</property>
+		<property name="connection.url">jdbc:postgresql://127.0.0.1:5432/AGRO_SRL?useSSL=false</property>
+		<property name="connection.username">postgres</property>
+		<property name="connection.password">sabrinabrasil</property>
+		<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+		
+
+		<mapping class = "Modelo.Campo"/>
+	    <mapping class = "Modelo.Lote"/>
+	    <mapping class = "Modelo.Tipo_De_Suelo"/>
+	    <mapping class = "Modelo.Cultivo"/>
+	    <mapping class = "Modelo.LaboreoxCultivo"/>
+	    <mapping class = "Modelo.Laboreo"/>
+	    <mapping class = "Modelo.Proyecto_De_Cultivo"/>
+	    <mapping class = "Modelo.Estado_Del_Proyecto"/>
+	    <mapping class = "Modelo.Situacion_Anormal"/>
+	    
+	</session-factory>
+</hibernate-configuration>
